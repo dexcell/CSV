@@ -28,10 +28,10 @@ Below is a typical example how to read csv file.
 
 You can also set custom delimiter, enclosure, etc in the config or directly in the code like example below
 
-  $csv = CSV::factory('file.csv', array(
-      'delimiter'   => ';', // Use comma delimiter
-      'has_titles'  => FALSE, // Assume csv does not has titles
-    ));
+	$csv = CSV::factory('file.csv', array(
+			'delimiter'   => ';', // Use comma delimiter
+			'has_titles'  => FALSE, // Assume csv does not has titles
+		));
 
 ### Writing CSV file
 
