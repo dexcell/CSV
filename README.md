@@ -74,3 +74,6 @@ Make user download csv file
 		->values(array('erick', '25'))
 		->values(array('john', '32'))
 		->send_file();
+
+### License
+MIT License
